@@ -132,6 +132,7 @@ a:visited{
     width: 1184px;
     height: 90px;
     background-color: white;
+    border-radius: 8px;
 }
 
 .divs{
@@ -164,7 +165,6 @@ a:visited{
     width: 1184px;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
     margin: 0px 30px 30px 30px;
     gap: 10px;
 }
@@ -221,10 +221,7 @@ a:visited{
     width: 1184px;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
-    margin: 0px 30px 30px 30px;
-    gap: 10px;
-    
+    margin-bottom: 30px;
 }
 
 .gradiente{
@@ -236,6 +233,7 @@ a:visited{
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .suscripcion-titulo-span{
@@ -278,8 +276,45 @@ a:visited{
     height: 37px;
 }
 
+.suscripcion-info{
+    background-color: white;
+    padding: 20px;
+}
 
+.suscripcion-productos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
 
+.producto-suscripcion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 360px;
+    gap: 20px;
+}
+
+.boton-suscripcion{
+    display: flex;
+    width: 123.72px;
+    height: 48px;
+    background-color: #3483FA;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.suscripcion-boton{
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    margin-top: 2px;
+    padding: 15px 30px 15px 15px;
+    border-radius: 0px 0px 8px 8px;
+}
 
 
 
