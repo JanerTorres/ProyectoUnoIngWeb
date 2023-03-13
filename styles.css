@@ -587,8 +587,71 @@ a:visited {
     font-weight: bold;
 }
 
+.colecciones-card{
+    background-color: white;
+    width: 383px;
+    height: 384px;
+}
 
+.colecciones-seccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.colecciones-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 26px;
+}
+
+.colecciones-info-span-1{
+    color: #4B4B4B;
+    letter-spacing: 3px;
+    font-size: x-small;
+    font-weight: 800;
+}
+
+.colecciones-info-span-2{
+    color: #4B4B4B;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.colecciones-img1{
+    grid-area: img1;
+}
+.colecciones-img2{
+    grid-area: img2;
+}
+.colecciones-img3{
+    grid-area: img3;
+}
+.colecciones-img4{
+    grid-area: img4;
+}
+.colecciones-img5{
+    grid-area: img5;
+}
+.colecciones-img6{
+    grid-area: img6;
+}
+.colecciones-img7{
+    grid-area: img7;
+}
+.colecciones-img8{
+    grid-area: img8;
+}
+
+.colecciones-productos{
+    display: grid;
+    grid-template-areas:
+        "img1 img2 img3 img4"
+        "img5 img6 img7 img8";
+    grid-row-gap: 12px;
+    grid-column-gap: 12px;
+}
 
 
 
