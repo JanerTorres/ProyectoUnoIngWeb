@@ -737,6 +737,52 @@ a:visited {
     height: 48px;
 }
 
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    padding: 60px ;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.opciones-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 260px;
+    gap: 10px;
+}
+
+.img-opciones{
+    width: 66px;
+    margin-bottom: 10px;
+}
+
+.opciones-span1{
+    color: #4B4B4B;
+    font-size: large;
+    font-weight: bold;
+}
+
+.opciones-span2{
+    text-align: center;
+    color: #999999;
+}
+
+.opciones-span3{
+    color: #3483FA;
+    font-size: small;
+}
+
+.separador-opciones{
+    height: 65px;
+}
+
 
 
 
