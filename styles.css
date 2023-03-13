@@ -473,6 +473,122 @@ a:visited {
     border-radius: 8px;
 }
 
+.tiendas {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1180px;
+    gap: 20px;
+    margin: 20px 0px 30px 0px;
+}
+
+.tiendas-titulo {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+.tiendas-titulo-span-1 {
+    color: #666666;
+    opacity: 70%;
+    font-size: x-large;
+}
+
+.tiendas-titulo-span-2 {
+    color: #3483FA;
+    font-size: medium;
+}
+
+.tiendas-seccion {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.tiendas-titulo {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+.tiendas-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 284px;
+    height: 340px;
+    background-color: white;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.tiendas-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-lego-logo{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 55px;
+    border: 1px solid #33333321;
+    border-radius: 4px;
+}
+
+.tiendas-info-span-1{
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.imgs-lego{
+    border: 1px solid #33333321;
+    border-radius: 4px;
+}
+
+.img-lego-portada{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.boton-tiendas-mas{
+    color: #999999;
+    font-size: large;
+    font-weight: bold;
+}
+
+.colecciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1180px;
+    gap: 20px;
+    margin: 20px 0px 30px 0px;
+}
+
+.colecciones-titulo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.colecciones-titulo-span-1 {
+    color: #666666;
+    opacity: 100%;
+    font-size: x-large;
+}
+
+.colecciones-titulo-span-2 {
+    color: #666666;
+    opacity: 100%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
 
 
 
