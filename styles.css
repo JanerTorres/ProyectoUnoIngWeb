@@ -415,7 +415,9 @@ a:visited {
 }
 
 .descubre-seccion{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .descubre-card{
@@ -426,6 +428,8 @@ a:visited {
     background-color: white;
     align-items: center;
     gap: 30px;
+    border-radius: 8px;
+    justify-content: space-between;
 }
 
 .descubre-info{
@@ -441,12 +445,14 @@ a:visited {
 }
 
 .descubre-info-span-1{
+    color: #4B4B4B;
     letter-spacing: 2px;
     font-size: small;
     font-weight: 600;
 }
 
 .descubre-info-span-2{
+    color: #4B4B4B;
     font-size: x-large;
     font-weight: bold;
 }
@@ -461,6 +467,10 @@ a:visited {
     justify-content: center;
     border-radius: 4px;
     font-size: small;
+}
+
+.imgs-descubre{
+    border-radius: 8px;
 }
 
 
